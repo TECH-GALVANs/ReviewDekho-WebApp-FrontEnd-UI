@@ -99,8 +99,8 @@ nav{
     width: auto;
 }
 .card{
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-    margin-top: 5%;
+    /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); */
+    /* margin-top: 5%; */
 }
 .card-img-top{
     height: 400px;
@@ -117,3 +117,74 @@ footer{
 	padding-right: 1%;
 }
 /* footer css done------------------------------------------------------------------------------- */
+.card-img-left{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 25px; */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.my-card{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.reviewer{
+    padding: 5%;
+}
+.username{
+    padding: 5%;
+}
+.username a{
+    color: #0C98E2;   
+    /* color: #019031;    */
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid lightgray;
+    /* border-bottom: 1px solid #fff; */
+}
+.reviewer-action{
+    /* height: 80px; */
+    padding: 2%;
+    margin: 2%;
+    margin-top: -5%;
+}
+.reviewer-action  a {
+    list-style: none;
+    text-decoration: none;
+    color: #019031;   
+    font-size: 20px;
+    
+}
+.reviewer-action  a:hover{
+    color: #02c543;   
+}
+.like{
+    text-align: center;
+    /* background-color: lightsalmon; */
+    padding: 2%;
+}
+.comment{
+    text-align: center;
+    padding: 2%;
+    /* background-color: lightseagreen; */
+}
+.report {
+    text-align: center;
+    /* background-color: lightslategrey; */
+    padding: 2%;
+}
+.report a{
+    color: #019031;   
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.read-more{
+    text-align: center;
+    padding: 2%;
+    color: #019031;   
+    /* background-color: lightslategrey; */
+}
